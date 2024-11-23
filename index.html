@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heavy Metal Sounds</title>
+  <style>
+    /* General Reset */
+    body {
+      margin: 0;
+      font-family: 'Arial Black', Gadget, sans-serif;
+      background-color: #1a1a1a;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+
+    /* Header Styling */
+    header {
+      background: linear-gradient(45deg, #ff0000, #800000);
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1rem;
+      font-weight: 300;
+    }
+
+    /* Navigation Styling */
+    nav {
+      background-color: #000000;
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ff0000;
+      text-decoration: none;
+      font-size: 1rem;
+      margin: 0 1rem;
+      text-transform: uppercase;
+    }
+
+    nav a:hover {
+      color: #800000;
+    }
+
+    /* Content Container */
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .media-item {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    /* Audio and Video Styling */
+    audio, video {
+      width: 100%;
+      max-width: 100%;
+      border: 3px solid #ff0000;
+      border-radius: 8px;
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: #000000;
+      color: #e0e0e0;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.8rem;
+    }
+
+    /* Mobile Styling */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header p {
+        font-size: 0.9rem;
+      }
+
+      nav a {
+        font-size: 0.9rem;
+        margin: 0 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Heavy Metal Sounds</h1>
+    <p>The Ultimate Collection of Head-Banging Tracks and Videos</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#audio">Audio Tracks</a>
+    <a href="#video">Videos</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Audio Section -->
+    <section id="audio">
+      <h2>Audio Tracks</h2>
+      <div class="media-item">
+        <h3>Track 1: Riff Masterpiece</h3>
+        <audio controls>
+          <source src="media/track1.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <div class="media-item">
+        <h3>Track 2: Thunder of Drums</h3>
+        <audio controls>
+          <source src="media/track2.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video">
+      <h2>Videos</h2>
+      <div class="media-item">
+        <h3>Live Performance: Metal Legends</h3>
+        <video controls>
+          <source src="media/live1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="media-item">
+        <h3>Behind the Scenes: Studio Jam</h3>
+        <video controls>
+          <source src="media/studio1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Dive into the world of heavy metal with our curated collection of iconic tracks and videos. From shredding guitar solos to electrifying drum beats, this is your ultimate destination for all things metal.
+      </p>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Heavy Metal Sounds. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
